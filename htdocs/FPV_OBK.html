@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPV OBK</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            color: rgb(40,160,200);
+            text-decoration: none;
+            margin-left: 32px;
+            font-size: 32px;
+            cursor: pointer;
+        }
+
+        .buttons {
+            position: absolute;
+            top: 90px;
+            right: 32px;
+        }
+
+        .container:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .feature-box {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            font-size: 30px;
+            color: red;
+            margin-bottom: 10px;
+        }
+
+        .button-container {
+            background-color: rgb(40, 160, 200);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            display: inline-block;
+            transition: background 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .button-container:hover {
+            background-color: rgb(30, 130, 170);
+        }
+
+        #discord-section {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        #fpv-build {
+            width: 80%;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: rgb(40,160,200);
+        }
+
+        .build-step {
+            margin-bottom: 20px;
+        }
+
+        .build-step a {
+            color: rgb(40,160,200);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .build-step a:hover {
+            text-decoration: underline;
+        }
+
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <img src="img/FPV_OBK.jpg" alt="FPV OBK Bild" width="250" height="200">
+
+    <div class="buttons">
+        <a class="container" href="#discord-section">Discord Einladung</a>
+        <a class="container" href="#fpv-build">FPV Copter Selbstbau</a>
+        <a class="container" href="">Fpv GPT</a>
+    </div>
+    
+    <hr>
+
+    <div class="header">
+        <h1>Unsere Features</h1>
+    </div>
+
+    <div class="features">
+        <div class="feature-box">
+            <div class="icon">🤖</div>
+            <h3>Fpv ChatBot</h3>
+            <p>Stelle Fragen zu FPV-Drohnen, Einstellungen, Flugmanövern und mehr. Unser DeepSeek Bot hilft dir weiter!</p>
+        </div>
+
+        <div class="feature-box">
+            <div class="icon">🚀</div>
+            <h3>FPV Copter Selbstbau Anleitung</h3>
+            <p>Lerne, wie du deinen eigenen FPV-5-Zoll-Copter baust – von den Bauteilen bis zum ersten Flug!</p>
+        </div>
+
+        <div class="feature-box">
+            <div class="icon">👥</div>
+            <h3>Discord Community</h3>
+            <p>Werde Teil unserer aktiven Discord-Community und bleibe mit Gleichgesinnten in Kontakt.</p>
+        </div>
+    </div>
+
+    <div id="discord-section">
+        <h2>🎮 Trete unserem Discord bei!</h2>
+        <p>Diskutiere mit anderen FPV-Piloten, tausche Erfahrungen aus und bleibe auf dem neuesten Stand.</p>
+        <a href="https://discord.gg/deinlink" class="button-container">Jetzt beitreten</a>
+    </div>
+
+    <div id="fpv-build">
+        <h2>🛠 FPV Copter Selbstbau - Detaillierte Anleitung</h2>
+
+        <!-- Schritt 1: Frame -->
+        <div class="build-step">
+            <h3>1. Frame (Rahmen)</h3>
+            <p>Der Rahmen ist die Basis deines Copters. Der <a href="https://www.aliexpress.com/item/1234567890">iFlight XL5 V5</a> ist eine ausgezeichnete Wahl. Beginne mit der Montage der Arme und Hauptplatte, um eine stabile Basis für die weiteren Komponenten zu schaffen.</p>
+        </div>
+
+        <!-- Schritt 2: Motoren -->
+        <div class="build-step">
+            <h3>2. Motoren</h3>
+            <p>Für die Motoren empfehlen wir die <a href="https://www.aliexpress.com/item/1234567890">T-Motor F60 Pro IV</a>. Montiere sie sicher auf dem Rahmen und verbinde sie mit den ESCs. Achte darauf, dass die Drähte richtig verlötet sind.</p>
+        </div>
+
+        <!-- Schritt 3: Flight Controller -->
+        <div class="build-step">
+            <h3>3. Flight Controller (FC)</h3>
+            <p>Der <a href="https://www.aliexpress.com/item/1234567890">SpeedyBee F405 V3</a> Flight Controller ist eine gute Wahl für die Steuerung deines Copters. Montiere ihn in der Mitte des Rahmens und verbinde ihn mit den ESCs und Motoren.</p>
+        </div>
+
+        <!-- Schritt 4: ESC -->
+        <div class="build-step">
+            <h3>4. ESC (Electronic Speed Controller)</h3>
+            <p>Verwende das <a href="https://www.aliexpress.com/item/1234567890">T-Motor F55A PRO</a> ESC. Löte die Drähte an den Motoren und schließe die ESCs an den Flight Controller an.</p>
+        </div>
+
+        <!-- Schritt 5: Propeller -->
+        <div class="build-step">
+            <h3>5. Propeller</h3>
+            <p>Verwende die <a href="https://www.aliexpress.com/item/1234567890">DAL Cyclone T5046C</a> Propeller. Setze sie auf die Motoren und befestige sie mit den Schrauben.</p>
+        </div>
+
+        <!-- Schritt 6: Video Transmitter -->
+        <div class="build-step">
+            <h3>6. Video Transmitter (VTX)</h3>
+            <p>Für den VTX empfehlen wir den <a href="https://www.aliexpress.com/item/1234567890">TBS Unify Pro 5G8</a>. Montiere den VTX auf dem Rahmen und schließe ihn an die Kamera und den Flight Controller an.</p>
+        </div>
+
+        <!-- Schritt 7: Kamera -->
+        <div class="build-step">
+            <h3>7. Kamera</h3>
+            <p>Die <a href="https://www.aliexpress.com/item/1234567890">Foxeer Predator V4</a> Kamera liefert eine exzellente Bildqualität. Montiere sie vorne auf dem Rahmen und verbinde sie mit dem VTX und Flight Controller.</p>
+        </div>
+
+        <!-- Schritt 8: Akku -->
+        <div class="build-step">
+            <h3>8. Akku</h3>
+            <p>Verwende einen Akku wie den <a href="https://www.aliexpress.com/item/1234567890">Tattu R-Line 1300mAh 4S</a>. Montiere den Akku sicher am Rahmen und verbinde ihn mit dem ESC.</p>
+        </div>
+
+        <!-- Schritt 9: Antennen -->
+        <div class="build-step">
+            <h3>9. Antennen</h3>
+            <p>Für bessere Signalstabilität empfehlen wir die <a href="https://www.aliexpress.com/item/1234567890">Lumenier AXII 2</a> Antennen. Montiere sie am VTX und stelle sicher, dass sie in einem günstigen Winkel ausgerichtet sind.</p>
+        </div>
+
+        <h3>Zusätzliche Schritte: Verkabelung und Löten</h3>
+        <p>Löte die Drähte von den ESCs zu den Motoren und achte darauf, dass keine Kurzschlüsse entstehen. Verwende Schrumpfschläuche und stelle sicher, dass alle Verbindungen stabil sind.</p>
+
+        <h3>Betaflight Flashen</h3>
+        <p>Installiere den Betaflight Configurator und flash die Firmware auf den Flight Controller. Verbinde den Copter über USB und starte den Betaflight Configurator. Kalibriere die Sensoren und stelle sicher, dass alles richtig funktioniert.</p>
+
+        <h2>In diesem Video findest du eine Schritt-für-Schritt Anleitung!</h2>
+        <!-- YouTube Video eingebettet -->
+        <iframe src="https://www.youtube.com/embed/S4raPR86TzM" title="FPV Copter Anleitung" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        document.querySelectorAll('.container').forEach(anchor => {
+            anchor.addEventListener('click', function(event) {
+                if (this.getAttribute('href').startsWith('#')) {
+                    event.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({ 
+                        behavior: 'smooth' 
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
